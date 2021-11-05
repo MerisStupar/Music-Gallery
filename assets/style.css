@@ -57,7 +57,7 @@
   top:0; left:0;
   height: 100%;
   width:100%;
-
+  overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -67,6 +67,8 @@
 
 .container .box-container .box:hover .image .play{
   display: flex;
+  background-color: #1f1f1f;
+  opacity: 0.6;
 }
 
 .container .box-container .box .image .play i{
@@ -81,4 +83,25 @@
 .container .box-container .box .content h3{
   font-size: 20px;
   color:#333;
+}
+
+.music-player{
+  position: fixed;
+  bottom: 0;
+  left:0;
+  right: 0;
+  border-radius: 6px;
+  background-color: rgb(247, 241, 241);
+  z-index: 1000;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.music-player .music-title{
+  font-size: 25px;
+  margin-bottom: 5px;
+  border-top: 3px solid #333;
+  border-bottom: 1px solid #333;
+  text-align: center;
+  padding: 10px;
 }
