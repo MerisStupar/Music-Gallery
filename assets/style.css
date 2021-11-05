@@ -87,14 +87,11 @@
 
 .music-player{
   position: fixed;
-  bottom: 0;
-  left:0;
-  right: 0;
-  border-radius: 6px;
-  background-color: rgb(247, 241, 241);
+  bottom: -125px; 
+  left:0; 
+  right:0;
+  background: #fff;
   z-index: 1000;
-  width: 50%;
-  margin: 0 auto;
 }
 
 .music-player .music-title{
@@ -104,4 +101,27 @@
   border-bottom: 1px solid #333;
   text-align: center;
   padding: 10px;
+}
+
+.music-player audio{
+  width: 100%;
+  color: white;
+}
+
+.music-player audio::-webkit-media-controls-enclosure{
+}
+
+.music-player #close-player{
+  position: absolute;
+  top:-50px; right:5px;
+  height: 50px;
+  width: 55px;
+  line-height: 50px;
+  cursor: pointer;
+  font-size: 30px;
+  color:#333;
+  background: #fff;
+  border:3px solid #333;
+  border-bottom: none;
+  text-align: center;
 }
