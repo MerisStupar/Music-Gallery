@@ -30,6 +30,10 @@
   padding-bottom: 150px;
 }
 
+.container .box-container.active{
+  padding-bottom: 150px;
+}
+
 .container .box-container .box{
   border-radius: 10px;
   background:#fff;
@@ -92,6 +96,10 @@
   right:0;
   background: #fff;
   z-index: 1000;
+}
+
+.music-player.active{
+  bottom:0;
 }
 
 .music-player .music-title{
