@@ -134,6 +134,8 @@
   text-align: center;
 }
 
+
+/*Media Queries*/
 @media (max-width:768px){
   .container .box-container{
     padding: 20px;
