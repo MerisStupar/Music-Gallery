@@ -125,3 +125,18 @@
   border-bottom: none;
   text-align: center;
 }
+
+@media (max-width:768px){
+  .container .box-container{
+    padding: 20px;
+  }
+}
+
+@media (max-width:450px){
+  .container .box-container{
+    grid-template-columns: 1fr;
+  }
+  .container .box-container .box .image{
+    height: 300px;
+  }
+}
